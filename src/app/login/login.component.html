@@ -1,0 +1,8 @@
+<p>login works!</p>
+<form #f="ngForm" (ngSubmit)="login(f)">
+<input type="text" #email="ngModel" ngModel name="email" >
+
+<input type="password" #password="ngModel" ngModel name="password">
+
+<button type="submit" style="width: 100%;">login</button>
+</form>

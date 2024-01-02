@@ -1,0 +1,6 @@
+<h2>connexion</h2>
+<label> Email </label>
+ <input type="text" size="30" #email><br>
+ <label> Mot de passe </label>
+ <input type="password" size="30" #pass><br>
+ <label type="button" (click)="seConnecter(email.value,password.value)">connexion</label>

@@ -1,0 +1,10 @@
+<p>création d'un nouveau compte</p>
+<form #f="ngForm" (ngSubmit)="register(f)">
+email :<input type="text" #email="ngModel" ngModel name="email" >
+<br>
+<br>
+Mot de passe :<input type="password" #password="ngModel" ngModel name="password">
+<br>
+<br>
+<button type="submit" >créer nouveau compte</button>
+</form>
